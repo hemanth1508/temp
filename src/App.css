@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.code{
+  height: 100px;
+  width: 50px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px 1px 1px 1px black;
+  color: #282c34;
+}

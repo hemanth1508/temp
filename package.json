@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker": "docker-compose up -d",
+    "container": "docker run -d -p 5000:3000 -v /app/node_modules -v $(pwd):/app react"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "create-react-component-folder": "^0.3.7"
   }
 }
